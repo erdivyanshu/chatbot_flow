@@ -1,16 +1,15 @@
 # Chatbot Flow Builder
 
-This project is developed as part of the BiteSpeed Frontend Task: Chatbot Flow Builder. The goal is to create a simple and extensible chatbot flow builder using React and React Flow. The flow builder allows users to create and manage chatbot flows by connecting multiple text message nodes. I have also tried to implemet an Responsive design so that the website will work in mobile devices too!!
+Chatbot Flow Builder. The goal is to create a simple and extensible chatbot flow builder using React and React Flow. The flow builder allows users to create and manage chatbot flows by connecting multiple text message nodes. I have also tried to implemet an Responsive design so that the website will work in mobile devices too!!
 
 Techstack used : ReactJS, Tailwind CSS, React Flow, Roact Icons, React Toastify, React Hooks.
 
-Find the project @ : [https://thriving-boba-ea4c2d.netlify.app/](https://thriving-boba-ea4c2d.netlify.app/)
+Find the project @ :
 
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Components](#components)
 
@@ -54,10 +53,6 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    
-   ``` bash
-   git clone https://github.com/yourusername/chatbot-flow-builder.git
-   cd BitWise-Frontend-Task
-   ```
 2. Install the dependencies:
    
    ``` bash
@@ -71,16 +66,6 @@ To get started with the project, follow these steps:
 
 ## Screenshots
 
-**Working Demo**
-https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/be40569a-32c4-4db2-96db-a066000cb95f
-
-
-
-![Home page ](https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/c8b7bf75-b8c3-472d-b9f4-7b44b4984013)
-![Message change](https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/b662a704-862a-493b-8a67-5ebf632979bb)
-![unconnected nodes and edges errors](https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/b810a809-bcd2-4caa-9207-eae7213a88db)
-
-
 ## Usage
 - Open the application in your browser (usually at http://localhost:3000).
 - Drag and drop nodes from the Nodes Panel to the canvas to create your chatbot flow.
@@ -88,33 +73,6 @@ https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/be40569a-32c4-
 - Click on a node to edit its text in the Settings Panel.
 - Save your flow using the "Save changes" button.
 
-##Code Structure
-
-``` text
-.
-|---App.css
-|---App.jsx
-|---file_structure.txt
-|---index.css
-|---main.jsx
-|   
-+---Components
-|   |---Navbar.jsx
-|   |   
-|   \---ReactflowContainer
-|       |---EditNode.jsx
-|       |---ReactflowContainer.jsx
-|       |---Sidebar.jsx
-|       |   
-|       \---Nodes
-|               MessageNode.jsx
-|               
-+---Context
-|       NodeContext.jsx
-|       
-\---Page
-        Home.jsx
-```
 
 ## Components
 Home.jsx
@@ -139,13 +97,4 @@ Context
 NodeContext.jsx
 - Provides context for managing the state of the flow, including nodes, edges, and save operations.
 
-Future Improvements
-- Add support for more node types.
-- Implement undo/redo functionality.
-- Improve the user interface and user experience.
-- Add more validation checks for node connections.
 
-# Contact details 
-- Portfolio : http://piyushis.online/
-- Resume : https://piyushis.online/resume
-- Linked In : https://www.linkedin.com/in/piyushpardeshi/
